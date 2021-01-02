@@ -6,38 +6,89 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
+/* nawigacja */
 .header-navigation{
     
-
-position: sticky;
+background-color:gray;
+position: fixed;
 top: 0;
-
+width: 100%;
 }
 
 .navigation-item{
 list-style: none;
 display: flex;
 
-
 }
 
 .navigation-link a{
-margin:15px;
-background-color:gray;
-color: white;
-padding: 8px;
+margin:12px;
+letter-spacing: 2px;
+color: #f5f5f5;
+padding: 5px;
 text-decoration: none;
 border-radius: 40px;
+
 }
 .navigation-link :hover{
 
- background-color:  blueviolet;   
+ background-color:  #38214e;  
+ 
 }
 
+/* nagłówki */
+.header-main-title{
+
+text-align: center;
+margin: 170px 0px 70px 0px;
+text-transform: uppercase;
+letter-spacing: 10px;
+
+}
+.header-aboutUs{
+text-align: center;
+margin-top: 130px;
+margin-bottom: 50px;
+
+letter-spacing: 6px;
+}
+
+
+/* akapity,tresc */
+
+.aboutUs{
+
+border-bottom: honeydew 1px solid;
+
+
+}
+
+.article-paragraph-aboutUs{
+
+
+text-align: justify;
+letter-spacing: 2px;
+
+}
+/* main */
 .main{
-max-width: 1250px;
+max-width: 99%;
 margin: auto;
 
 
 
+}
+.section-img{
+
+
+
+
+
+}
+
+.footer-info{
+
+    text-align: center;
+    letter-spacing: 1px;
+    margin:30px auto 30px auto
 }
