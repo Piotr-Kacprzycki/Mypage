@@ -32,7 +32,7 @@ border-radius: 40px;
 }
 .navigation-link :hover{
 
- background-color:  #38214e;  
+ background-color: #02022e;  
  
 }
 
@@ -40,7 +40,7 @@ border-radius: 40px;
 .header-main-title{
 
 text-align: center;
-margin: 170px 0px 70px 0px;
+margin: 130px 0px 70px 0px;
 text-transform: uppercase;
 letter-spacing: 10px;
 
