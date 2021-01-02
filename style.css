@@ -1,12 +1,42 @@
 body{
-
+background-color: black;
+color: whitesmoke;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
 }
+.header-navigation{
+    
+
+position: sticky;
+top: 0;
+
+}
+
+.navigation-item{
+list-style: none;
+display: flex;
+
+
+}
+
+.navigation-link a{
+margin:15px;
+background-color:gray;
+color: white;
+padding: 8px;
+text-decoration: none;
+border-radius: 40px;
+}
+.navigation-link :hover{
+
+ background-color:  blueviolet;   
+}
+
 .main{
-
-
+max-width: 1250px;
+margin: auto;
 
 
 
